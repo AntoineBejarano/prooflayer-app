@@ -2,8 +2,8 @@
 
 import { useState } from "react"
 import Link from "next/link"
-import Image from "next/image"
 import { Menu, X } from "lucide-react"
+import { Logo } from "./logo"
 import { Button } from "@/components/ui/button"
 
 export function Navbar() {
@@ -14,14 +14,7 @@ export function Navbar() {
       <nav className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4 lg:px-8">
         <div className="flex lg:flex-1">
           <Link href="/" className="-m-1.5 p-1.5">
-            <Image 
-              src="/images/prooflayer-logo.png" 
-              alt="Prooflayer" 
-              width={140} 
-              height={32} 
-              className="h-8 w-auto"
-              priority
-            />
+            <Logo />
           </Link>
         </div>
         <div className="flex lg:hidden">
