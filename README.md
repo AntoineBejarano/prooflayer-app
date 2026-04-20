@@ -1,35 +1,61 @@
-# prooflayer-app
+<p align="center">
+  <img src="docs/prooflayer-banner.png" alt="Prooflayer" width="480" />
+</p>
 
-This is a [Next.js](https://nextjs.org) project bootstrapped with [v0](https://v0.app).
+<h1 align="center">Prooflayer</h1>
 
-## Built with v0
+<p align="center">
+  <strong>Turn your AI systems into evidence you can sell.</strong>
+</p>
 
-This repository is linked to a [v0](https://v0.app) project. You can continue developing by visiting the link below -- start new chats to make changes, and v0 will push commits directly to this repo. Every merge to `main` will automatically deploy.
+<p align="center">
+  Prooflayer is a control plane that turns <strong>code + real AI usage</strong> into a structured model,
+  <strong>deterministic policies</strong>, continuous evidence, and documents ready for sales and audit.
+</p>
 
-[Continue working on v0 →](https://v0.app/chat/projects/prj_fOUGtivlIj0kArVle2GuCY9DLhYG)
+---
 
-## Getting Started
+## Principles
 
-First, run the development server:
+- **AI proposes; rules decide.** LLMs suggest and enrich; compliance decisions and enforcement run through a **deterministic policy engine** (for example OPA/Rego), versioned and auditable.
+- **Evidence by design.** Signals from repos, providers, and observability normalize into a single model, then flow through policies into an evidence graph and exportable docs.
+
+## Pipeline (high level)
+
+`Sources → Ingestion → Detection → Normalization → Policy Engine → Evidence Graph → Docs → UI/API`
+
+## This repository
+
+Landing and product UI built with **Next.js** (App Router), **React 19**, **Tailwind CSS**, and **Supabase** (e.g. waitlist). See [`CLAUDE.md`](./CLAUDE.md) for product blueprint, roadmap phases, and target backend stack.
+
+## Getting started
+
+Install dependencies and run the dev server:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
+pnpm install
 pnpm dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000). Main entry: `app/page.tsx`.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+pnpm build   # production build
+pnpm start   # run production server locally
+pnpm lint    # eslint
+```
 
-## Learn More
+## Built with v0
 
-To learn more, take a look at the following resources:
+This repo is linked to a [v0](https://v0.app) project. Merges to `main` deploy as configured for the project.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-- [v0 Documentation](https://v0.app/docs) - learn about v0 and how to use it.
+[Continue working on v0 →](https://v0.app/chat/projects/prj_fOUGtivlIj0kArVle2GuCY9DLhYG)
 
-<a href="https://v0.app/chat/api/kiro/clone/AntoineBejarano/prooflayer-app" alt="Open in Kiro"><img src="https://pdgvvgmkdvyeydso.public.blob.vercel-storage.com/open%20in%20kiro.svg?sanitize=true" /></a>
+## Learn more
+
+- [Next.js documentation](https://nextjs.org/docs)
+- [v0 documentation](https://v0.app/docs)
+
+<p align="center">
+  <a href="https://v0.app/chat/api/kiro/clone/AntoineBejarano/prooflayer-app"><img src="https://pdgvvgmkdvyeydso.public.blob.vercel-storage.com/open%20in%20kiro.svg?sanitize=true" alt="Open in Kiro" /></a>
+</p>
