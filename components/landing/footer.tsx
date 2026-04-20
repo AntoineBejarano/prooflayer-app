@@ -1,4 +1,5 @@
 import Link from "next/link"
+import Image from "next/image"
 
 export function Footer() {
   return (
@@ -6,8 +7,14 @@ export function Footer() {
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="flex flex-col items-center justify-between gap-6 md:flex-row">
           <div className="flex items-center gap-8">
-            <Link href="/" className="text-lg font-semibold text-foreground">
-              prooflayer
+            <Link href="/">
+              <Image 
+                src="/images/prooflayer-logo.png" 
+                alt="Prooflayer" 
+                width={120} 
+                height={28} 
+                className="h-7 w-auto"
+              />
             </Link>
             <nav className="flex gap-6 text-sm text-muted-foreground">
               <Link href="#how-it-works" className="transition-colors hover:text-foreground">
