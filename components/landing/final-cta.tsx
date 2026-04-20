@@ -51,7 +51,7 @@ export function FinalCTA() {
 
           <div className="relative text-center">
             <h2 className="text-balance text-3xl font-bold tracking-tight text-foreground sm:text-4xl">
-              Ready to make your AI sellable?
+              Ready to make your AI sellable to EU enterprise?
             </h2>
             <p className="mx-auto mt-4 max-w-xl text-pretty text-lg text-muted-foreground">
               Join 50+ teams already on the waitlist. Get early access pricing and shape the product as a design partner.

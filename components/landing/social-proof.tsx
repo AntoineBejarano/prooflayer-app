@@ -2,9 +2,9 @@ import { Quote } from "lucide-react"
 
 const testimonials = [
   {
-    quote: "We were losing enterprise deals to compliance concerns. Prooflayer helped us answer AI questionnaires in a day instead of weeks.",
+    quote: "Our first EU enterprise prospect sent a 60-question AI governance form. With Prooflayer we answered in a day instead of pausing the deal for weeks.",
     author: "CTO",
-    company: "Series B SaaS",
+    company: "Series A SaaS (HR Tech)",
     avatar: "M",
   },
   {

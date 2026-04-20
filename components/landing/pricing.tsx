@@ -6,7 +6,7 @@ const plans = [
   {
     name: "One-Time Assessment",
     price: "€2k–€5k",
-    description: "Complete AI inventory, risk classification, and documentation pack for your current systems.",
+    description: "Complete AI inventory, risk classification, and documentation pack you can reuse across enterprise buyers.",
     features: [
       "Full codebase scan",
       "AI system inventory",
@@ -22,7 +22,7 @@ const plans = [
     name: "Continuous Compliance",
     price: "~€300",
     priceLabel: "/month",
-    description: "Ongoing monitoring, automatic updates, and continuous evidence collection.",
+    description: "Ongoing monitoring, automatic updates, and continuous evidence collection so your next enterprise questionnaire is already answered.",
     features: [
       "Everything in Assessment",
       "Continuous monitoring",
@@ -101,9 +101,17 @@ export function Pricing() {
           ))}
         </div>
 
-        <p className="mt-12 text-center text-sm text-muted-foreground">
-          Pricing varies based on codebase size and number of AI systems. Get a custom quote.
-        </p>
+        <div className="mt-12 flex flex-col items-center gap-4">
+          <p className="text-center text-sm text-muted-foreground">
+            Pricing varies based on codebase size and number of AI systems.
+          </p>
+          <Button asChild variant="outline" size="sm">
+            <Link href="#waitlist">
+              Request pricing call
+              <ArrowRight className="ml-2 h-4 w-4" />
+            </Link>
+          </Button>
+        </div>
       </div>
     </section>
   )

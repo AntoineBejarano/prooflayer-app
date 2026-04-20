@@ -62,7 +62,11 @@ export function Hero() {
           </h1>
 
           <p className="mx-auto mt-6 max-w-2xl text-pretty text-lg leading-relaxed text-muted-foreground sm:text-xl">
-            The AI compliance control plane for B2B SaaS. Detect what AI you ship, classify your EU AI Act exposure, and generate buyer-ready documentation—automatically.
+            The AI control plane for B2B SaaS selling to Europe. Detect what AI you ship, map it to the EU AI Act, and generate buyer-ready evidence so enterprise deals don&apos;t get blocked.
+          </p>
+          
+          <p className="mx-auto mt-3 max-w-xl text-sm text-muted-foreground/80">
+            For B2B SaaS teams with 10-200 employees using LLMs and selling to EU enterprise.
           </p>
 
           <form onSubmit={handleSubmit} className="mx-auto mt-10 flex max-w-md flex-col gap-3 sm:flex-row" id="waitlist">

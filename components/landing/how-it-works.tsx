@@ -17,7 +17,7 @@ const steps = [
     number: "03",
     icon: FileCheck,
     title: "Classify risk & generate evidence",
-    description: "Map each system to EU AI Act categories. Generate structured evidence that satisfies procurement and due diligence.",
+    description: "Map each system to EU AI Act roles and risk tiers, so you know what actually applies to you. Generate structured evidence that satisfies procurement and due diligence.",
   },
   {
     number: "04",
@@ -29,7 +29,7 @@ const steps = [
     number: "05",
     icon: RefreshCw,
     title: "Stay updated on every release",
-    description: "Prooflayer watches your releases and PRs. Evidence stays current. No more manual updates when your AI systems change.",
+    description: "Prooflayer watches your releases and PRs. Evidence stays current, and your documentation updates with every meaningful change—no more one-off audits.",
   },
 ]
 

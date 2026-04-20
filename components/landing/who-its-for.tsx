@@ -58,6 +58,25 @@ export function WhoItsFor() {
             </div>
           ))}
         </div>
+
+        {/* Not a fit */}
+        <div className="mx-auto mt-16 max-w-2xl rounded-xl border border-border/50 bg-background/50 p-6">
+          <h3 className="text-sm font-semibold uppercase tracking-wider text-muted-foreground">Not a fit if:</h3>
+          <ul className="mt-4 space-y-2 text-muted-foreground">
+            <li className="flex items-start gap-2">
+              <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-muted-foreground/50" />
+              You don&apos;t sell (or plan to sell) to EU enterprise
+            </li>
+            <li className="flex items-start gap-2">
+              <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-muted-foreground/50" />
+              You build consumer-only AI apps
+            </li>
+            <li className="flex items-start gap-2">
+              <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-muted-foreground/50" />
+              You&apos;re looking for formal legal opinions or certification
+            </li>
+          </ul>
+        </div>
       </div>
     </section>
   )

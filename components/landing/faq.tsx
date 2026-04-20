@@ -10,15 +10,15 @@ import {
 const faqs = [
   {
     question: "Is this only for the EU AI Act?",
-    answer: "The EU AI Act is our primary focus because it's the most comprehensive AI regulation coming into force. However, Prooflayer's documentation and evidence approach helps with any enterprise AI due diligence—including ISO 42001, NIST AI RMF, and general security questionnaires.",
+    answer: "Today we focus on mapping your systems to the EU AI Act because that's what most EU enterprise buyers are asking about. The underlying control and evidence model is designed to support other frameworks over time (like ISO 42001 or NIST AI RMF).",
   },
   {
     question: "Is this legal advice?",
-    answer: "No. Prooflayer is a technical tool that helps you understand and document your AI systems. We provide structured evidence and documentation, but we recommend working with legal counsel for final compliance decisions. Our output makes their job much easier.",
+    answer: "No. Prooflayer is an engineering and governance tool. We help you understand your AI systems, risk tiers and obligations and generate documentation and evidence. You should still consult legal counsel for formal opinions or certification.",
   },
   {
-    question: "Do I need this if I only use OpenAI APIs?",
-    answer: "Yes, likely. Using third-party AI APIs doesn't exempt you from compliance requirements. You're still deploying AI systems that affect your users. Enterprise buyers will ask about your specific implementation, data handling, and risk controls—not just what APIs you use.",
+    question: "Do I need this if I only use OpenAI / Anthropic APIs?",
+    answer: "If you ship AI features to users in Europe, you're already in scope of the EU AI Act, even if you only call external APIs. Enterprise buyers will still expect documentation and governance for how you use those models inside your product.",
   },
   {
     question: "Is this a one-time scan or ongoing?",

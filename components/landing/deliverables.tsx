@@ -9,7 +9,7 @@ const coreDeliverables = [
   {
     icon: ClipboardCheck,
     title: "Compliance Summary",
-    description: "Risk classification, applicable regulations, and compliance status in a format buyers understand.",
+    description: "Risk classification, applicable regulations, and compliance status in a format enterprise buyers understand (not just lawyers).",
   },
   {
     icon: Info,
@@ -32,12 +32,12 @@ const advancedDeliverables = [
   {
     icon: AlertCircle,
     title: "Risk Assessment File",
-    description: "Detailed risk analysis with mitigation strategies and residual risk documentation.",
+    description: "Detailed risk analysis with mitigation strategies and residual risk documentation (when applicable).",
   },
   {
     icon: BarChart3,
     title: "Evaluation Report",
-    description: "Performance metrics, bias analysis, and quality assurance documentation.",
+    description: "Performance metrics, bias analysis (when practical), and quality assurance documentation.",
   },
   {
     icon: Activity,

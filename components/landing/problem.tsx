@@ -14,7 +14,7 @@ const problems = [
   {
     icon: Clock,
     title: "Manual compliance is slow and expensive",
-    description: "Legal reviews, external consultants, custom documentation. It takes months and costs tens of thousands—for every customer.",
+    description: "Legal reviews, external consultants, custom documentation. It takes months and often costs tens of thousands of euros per customer.",
   },
   {
     icon: Scale,
@@ -33,7 +33,7 @@ export function Problem() {
             Enterprise AI deals are getting stuck
           </h2>
           <p className="mt-4 text-pretty text-lg text-muted-foreground">
-            Buyers are asking tough questions about AI governance. If you can&apos;t answer fast, you lose the deal.
+            The EU AI Act starts applying in 2026. Enterprise buyers are already asking how your AI systems comply—and will keep asking. If you can&apos;t answer fast, you lose the deal.
           </p>
         </div>
 
