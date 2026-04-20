@@ -42,9 +42,20 @@ export function Footer() {
           </div>
         </div>
         
-        <div className="mt-8 border-t border-border pt-8">
-          <p className="text-center text-sm text-muted-foreground">
+        <div className="mt-8 space-y-2 border-t border-border pt-8 text-center">
+          <p className="text-sm text-muted-foreground">
             &copy; {new Date().getFullYear()} Prooflayer. All rights reserved.
+          </p>
+          <p className="text-sm text-muted-foreground">
+            Powered by{" "}
+            <Link
+              href="https://deevlylabs.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="transition-colors hover:text-foreground"
+            >
+              Deevly Labs
+            </Link>
           </p>
         </div>
       </div>
